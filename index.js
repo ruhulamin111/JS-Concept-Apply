@@ -40,4 +40,23 @@ function oddNumber(number) {
 }
 var carNumebr = 361;
 var carResult = oddNumber(carNumebr);
-console.log(carResult); 
+console.log(carResult);
+
+// leap year function 
+function leapYear(years) {
+    if (years / 400 == 0) {
+        return true;
+    }
+    else if (years / 100 != 0) {
+        return false;
+    }
+    else if (years / 4 == 0) {
+        return true;
+    }
+    else {
+        return false
+    }
+}
+var chooseYear = 2021;
+var leapYearResult = leapYear(chooseYear);
+console.log(leapYearResult); 
