@@ -68,3 +68,15 @@ for (var i = 1; i <= 5; i++) {
 }
 console.log(factorial);
 
+// factiorial function
+function factiorialValue(number) {
+    let factorial = 1;
+    for (let i = 1; i <= number; i++) {
+        factorial = factorial * i;
+    }
+    return factorial;
+}
+var factiorialNumber = 9;
+var factiorialResult = factiorialValue(factiorialNumber);
+console.log(factiorialResult);
+
