@@ -76,7 +76,19 @@ function factiorialValue(number) {
     }
     return factorial;
 }
-var factiorialNumber = 9;
+var factiorialNumber = 7;
 var factiorialResult = factiorialValue(factiorialNumber);
 console.log(factiorialResult);
+
+// factiorial function
+function factiorialReverseValue(number) {
+    let factorial = 1;
+    for (let i = number; i >= 1; i--) {
+        factorial = factorial * i;
+    }
+    return factorial;
+}
+var factiorialNumber2 = 6;
+var factiorialResult2 = factiorialReverseValue(factiorialNumber2);
+console.log(factiorialResult2);
 
