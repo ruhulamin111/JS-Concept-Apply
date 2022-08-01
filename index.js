@@ -59,4 +59,12 @@ function leapYear(years) {
 }
 var chooseYear = 2021;
 var leapYearResult = leapYear(chooseYear);
-console.log(leapYearResult); 
+console.log(leapYearResult);
+
+// factiorial 
+var factorial = 1;
+for (var i = 1; i <= 5; i++) {
+    factorial = factorial * i;
+}
+console.log(factorial);
+
