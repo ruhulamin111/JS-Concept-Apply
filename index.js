@@ -114,3 +114,17 @@ for (var i = 1; i <= 100; i++) {
     }
 }
 
+// namta function 
+function namta(input) {
+    var number = input;
+    for (var i = 1; i <= 10; i++) {
+        var reuslt = i * number;
+        var resultTable = i + '*' + number + '=' + reuslt;
+        console.log(resultTable);
+    }
+    return reuslt;
+}
+var numberTest = 8;
+var numberResult = namta(numberTest);
+console.log(numberResult);
+
