@@ -92,3 +92,25 @@ var factiorialNumber2 = 6;
 var factiorialResult2 = factiorialReverseValue(factiorialNumber2);
 console.log(factiorialResult2);
 
+// vowel check 
+function vowelCheck(input) {
+    var letter = input.toLowerCase();
+    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
+        console.log(letter, 'is a vowel')
+    }
+    else {
+        console.log(letter, 'is not a vowel')
+    }
+    return letter;
+}
+var alphabet = 'F'
+var vowelResult = vowelCheck(alphabet);
+console.log(vowelResult);
+
+// odd number check 
+for (var i = 1; i <= 100; i++) {
+    if (i % 2 != 0) {
+        console.log(i);
+    }
+}
+
